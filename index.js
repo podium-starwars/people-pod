@@ -35,7 +35,7 @@ app.get(podlet.manifest(), (req, res) => {
 
 app.use(express.static(__dirname + '/assets'));
 podlet.css({ value: '/css/styles.css' });
-//podlet.js({ value: '/js/main.js' });
+podlet.js({ value: '/js/main.js' });
 
 app.listen(PORT);
 console.log('People pod listening on: 3002');
