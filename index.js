@@ -1,7 +1,6 @@
 const express = require('express');
 const Podlet = require('@podium/podlet');
 const cors = require('cors');
-const fetch = require('node-fetch');
 const PORT = process.env.PORT || 3002;
 
 const app = express();
